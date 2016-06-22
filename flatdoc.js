@@ -241,7 +241,7 @@
 
   Transformer.addIDs = function($content) {
     var slugs = ['', '', ''];
-    $content.find('h1, h2, h3').each(function() {
+    $content.find('h1, h2, h3, h4, h5').each(function() {
       var $el = $(this);
       var num = parseInt(this.nodeName[1]);
       var text = $el.text();
@@ -281,7 +281,7 @@
       return obj;
     }
 
-    $content.find('h1, h2, h3').each(function() {
+    $content.find('h1, h2, h3, h4, h5').each(function() {
       var $el = $(this);
       var level = +(this.nodeName.substr(1));
 

@@ -7,7 +7,7 @@
   */
 
  $document.on('flatdoc:ready', function() {
-    $("h2, h3").scrollagent(function(cid, pid, currentElement, previousElement) {
+    $("h1, h2, h3, h4, h5").scrollagent(function(cid, pid, currentElement, previousElement) {
       if (pid) {
        $("[href='#"+pid+"']").removeClass('active');
       }
@@ -22,7 +22,7 @@
   */
 
  $document.on('flatdoc:ready', function() {
-   $('.menu a').anchorjump();
+   $('.menu a').anchorjump({offset: -30});
  });
 
  /*
@@ -132,7 +132,7 @@
     // Find the current active section every scroll tick.
     $parent.on('scroll', function() {
       var y = $parent.scrollTop();
-      y += height * (0.3 + 0.7 * Math.pow(y/range, 2));
+      y += (height + -800) * (0.3 + 0.7 * Math.pow(y/range, 2));
 
       var latest = null;
 
