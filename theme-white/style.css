@@ -100,7 +100,12 @@ td {
   vertical-align: middle;
 }
 a img {
-  border: none;
+  border: 0;
+}
+img {
+  border-width: 2px;
+  border-color: #9aa2ad;
+  border-style: solid;
 }
 html,
 body {
@@ -212,12 +217,12 @@ a:hover {
   font-family: Menlo, monospace;
   background: #f3f6fb;
   padding: 1px 3px;
-  font-size: 0.95em;
+  font-size: 1em;
 }
 .content pre > code {
   display: block;
   background: transparent;
-  font-size: 0.85em;
+  font-size: 1em;
   letter-spacing: -1px;
 }
 .content blockquote :first-child {
@@ -324,11 +329,11 @@ a:hover {
   font-size: 2em;
 }
 .content h3 {
-  font-size: 1.2em !important;
+  font-size: 1.6em !important;
 }
 .content h4,
 .content h5 {
-  font-size: 1em !important;
+  font-size: 1.2em !important;
   font-weight: 400;
 }
 .content p {
@@ -578,9 +583,9 @@ div.expand {
   body:not(.no-literate) .content > pre,
   body:not(.no-literate) .content > blockquote {
     width: 380px;
-    padding-left: 20px;
+    padding-left: 75px;
     padding-right: 20px;
-    float: right;
+    float: left;
     clear: right;
   }
   body:not(.no-literate) .content > pre + p,
@@ -630,10 +635,10 @@ div.expand {
   }
 }
 h1#introduction {
-  padding-top: 60px;
+  padding-top: 30px;
 }
 .header {
-  background: #434a54e6;
+  background: #434a54;
   /* text-shadow: 0 1px 0 rgba(255,255,255,0.5); */
   border-bottom: solid 1px #dfe2e7;
   padding: 15px 15px 15px 30px;
