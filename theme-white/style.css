@@ -224,6 +224,12 @@ a:hover {
   background: transparent;
   font-size: 1em;
   letter-spacing: -1px;
+  border: solid 1px #e7eaee;
+  border-top: solid 1px #dbdde2;
+  border-left: solid 1px #e2e5e9;
+  padding: 15px;
+  background-color: #f3f6fb;
+  border-radius: 2px;
 }
 .content blockquote :first-child {
   padding-top: 0;
@@ -582,7 +588,7 @@ div.expand {
   }
   body:not(.no-literate) .content > pre,
   body:not(.no-literate) .content > blockquote {
-    width: 380px;
+    width: 780px;
     padding-left: 75px;
     padding-right: 20px;
     float: left;

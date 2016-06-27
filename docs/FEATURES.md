@@ -299,6 +299,22 @@ Let’s create our first notification alert. We’ll send a text message and ema
    
  
 ### Receiving alerts
+
 ### SMS
+
+Cayenne will send you notification alerts by text message if selected.
+
+<p style="text-align:center"><br/><img src="http://d1nocd4j7qtmw4.cloudfront.net/wp-content/uploads/20160602151440/Triggers-07-Notification-Event.jpg" width="346" height="615" alt="Notification Alert"><br/><br/></p>   
+
+
 ### Email
+
+Cayenne will send you notification alerts by email if selected.
+
+<p style="text-align:center"><br/><img src="http://d1nocd4j7qtmw4.cloudfront.net/wp-content/uploads/20160603101622/Triggers-08-EmailAlert.jpg" width="346" height="372" alt="Email Alert"><br/><br/></p>  
+
+
+
+
+
 
